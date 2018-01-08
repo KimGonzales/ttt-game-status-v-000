@@ -45,5 +45,7 @@ def over?(board)
 end
 
 def winner(board)
-
+  token_indexes = won?(board)
+  token = token_indexex[0]
+  puts "Player #{token} is the Winner!"
 end
