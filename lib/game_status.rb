@@ -14,3 +14,7 @@ WIN_COMBINATIONS = [
   [0,4,8], #left top to right bottom diaganol
   [2,4,6] #right top to left bottom diaganol
 ]
+
+def won?
+
+end
