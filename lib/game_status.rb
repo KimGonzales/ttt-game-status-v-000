@@ -45,5 +45,7 @@ def over?(board)
 end
 
 def winner?(board)
+  won?(board)
+  puts "Player #{board} has won!"
   
 end
