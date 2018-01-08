@@ -4,24 +4,3 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-WIN_COMBINATIONS = [
-  [0,1,2], # Top row
-  [3,4,5], # Middle row
-  [6,7,8], # Bottom row
-  [0,3,6], # First column
-  [1,4,7], # Second column
-  [2,5,8], # Third column
-  [0,4,8], # Bop left to bottom right diagonal
-  [2,4,6]  # Bottom left to top right diagonal
-  # ETC, an array for each win combination
-]
-
-def won? (board)
-  win_index_1 = WIN_COMBINATIONS[0]
-  win_index_2= WIN_COMBINATIONS[1]
-  win_index_3= WIN_COMBINATIONS[2]
-
-  position_1
-
-
-end
