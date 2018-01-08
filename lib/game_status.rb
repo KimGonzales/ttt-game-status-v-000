@@ -32,7 +32,7 @@ end
 
 def full?(board)
   board.all? do |index|
-    index.to_i
+    index = index.to_i
     if position_taken?(board,index) == true
       true
     else
