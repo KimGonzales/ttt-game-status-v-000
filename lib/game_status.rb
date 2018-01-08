@@ -32,7 +32,7 @@ end
 
 def full?(board)
   board.all do |position|
-    if position_taken?(position) == true
+    if position_taken?(board) == position
       true
     else
       false
