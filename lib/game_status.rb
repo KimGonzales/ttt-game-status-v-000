@@ -31,11 +31,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |index|
-    if position_taken?(board,index) == true
-      true
-    else
-      false
-    end
+  board.all? do |position|
+    position = "X" || position "O"
   end
 end
